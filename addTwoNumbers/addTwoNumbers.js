@@ -10,9 +10,10 @@
 
 
 
-function ListNode(val, next) {
+let ListNode = function (val, next) {
   this.val = (val === undefined ? 0 : val)
   this.next = (next === undefined ? null : next)
+}
 
 
 
