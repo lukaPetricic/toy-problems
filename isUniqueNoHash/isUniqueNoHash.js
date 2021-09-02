@@ -1,7 +1,8 @@
+"use strict";
 function isUniqueNoHash(string) {
-    var arrayOfLetters = string.split('');
+    let arrayOfLetters = string.split('');
     arrayOfLetters.sort();
-    for (var i = 0; i < arrayOfLetters.length; i++) {
+    for (let i = 0; i < arrayOfLetters.length; i++) {
         if (arrayOfLetters[i] === arrayOfLetters[i + 1])
             return false;
     }
